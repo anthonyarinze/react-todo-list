@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.searchBar{
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 5%;
+}
+
+.searchBar:focus{
+  border: 4px solid blue;
+}
+
+.submitButton{
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 5%;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 24rem;
+}
